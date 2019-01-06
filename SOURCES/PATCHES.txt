@@ -1,0 +1,25 @@
+This build is based on the original SVN build but includes the following patches:
+
+Patch for more accurately balanced Soundblaster volumes by Qbix with help from James-F (http://www.vogons.org/viewtopic.php?f=32&t=52414&p=581137#p580918)
+
+Patch for 3dfx Voodoo emulation by kekko (http://www.vogons.org/viewtopic.php?f=41&t=41853)
+
+Patch for enhanced scalers (normal4x, normal5x, normal6x) by VileRancour (http://www.vogons.org/viewtopic.php?f=41&t=43899)
+
+Patch for pixel perfect scaling by Ant_222 (http://www.vogons.org/viewtopic.php?f=32&t=49160)
+Please read the "README for pixel perfect patch.txt" file for instructions how to use these features!
+
+Patch for Nuked OPL3 emulation by nukeykt (http://www.vogons.org/viewtopic.php?f=41&t=49327)
+Make sure to set the sample rate in the [mixer] and the [sblaster] section to 49716 and to set "oplemu=nuked" in the [sblaster] section as well!
+
+Patch for better playback using PC speaker by ripa (http://www.vogons.org/viewtopic.php?f=41&t=23371)
+
+Patch for integration of MT32emu from MUNT project by kingguppy, sergm (https://sourceforge.net/projects/munt/)
+
+Patch for integration of Fluidsynth MIDI Synthesizer by mgiuca / bloodbat / dugan (http://www.vogons.org/viewtopic.php?f=32&t=27831&start=20)
+
+Patch that enables support for up to ten joystick axis as well as the possibility to map the digipad (even when joysticktype=auto) by cfoesch (http://www.vogons.org/viewtopic.php?f=32&t=27452)
+
+
+
+Thanks to all the creators of and contributors to these patches!
